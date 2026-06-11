@@ -42,9 +42,9 @@ function tiraIlDado(nTiri) {
 
     for (let i = 0; i < nTiri; i++) {
 
-        dado1 += Math.floor(Math.random() * (6 - 1) + 1);
+        dado1 += Math.floor((Math.random() * 6) + 1);
 
-        dado2 += Math.floor(Math.random() * (6 - 1) + 1);
+        dado2 += Math.floor((Math.random() * 6) + 1);
 
         console.log(dado1, dado2);
     }
